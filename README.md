@@ -7,29 +7,12 @@ Project Notes
 
 Track products an mapped indoor region. When product is scanned it is removed from visual. When product moves the vibration sensor will trigger and display that position on the map. 
 
-To-Do’s
-When shack print text on screen web site “moving”
-Finish tutorial - angular js part of tutorial -  https://www.youtube.com/watch?v=PFP0oXNNveg
-Add map and get map to show a dot when triggered
+My goals are to implement feature the arduino is shaken, print text on screen web site “moving”. I will eventually need to automatically update the arduino in the database. I will also need to add an ID to each and associate it with a product. Finish angular section of this tutorial which will show you how to build client and server interaction https://www.youtube.com/watch?v=PFP0oXNNveg. Add a map to interface. Get map to show a dot when triggered
 
-Mlab login 
-see docs
-
-Accomplishments
-Wrote first blinking light arduino uno program
-When  you move the fast vibration sensor it makes a beeping noise.
-Web server communicates with arduino
-Added 3 items to the database Mlab database. To view items login to MLAB
+My accomplishments were node server communication with arduino. When the server started it inialized the LED to begin blinking.Added 3 items to the Mlab database. To view items login to MLAB. For mlab login information go see docs
 	
 Setup
-“Upload” program into arduino
-Go to Examples > firmata > standardfirmata
-https://www.youtube.com/watch?v=8s2--hfsJDY
-See documentation - http://johnny-five.io/
-Cd in to test
-Run node server.js for server load
-Or “nodemon” for fast server reload
+“Upload” program into arduino. Go to Examples > firmata > standardfirmata. See video for help, https://www.youtube.com/watch?v=8s2--hfsJDY. See documentation http://johnny-five.io/. Run node server.js for server load
+Or “nodemon” for fast server reload.
 
-Challenges
-Finding working code for arduino and server communication and took 2 days for me to find it and get it working
-Figuring out how to get the location of the arduino to show up indoors.
+My challenges were finding working code for arduino and server communication. It took 2 days for me to find it and get it working. My next change is figuring out how to get the location of the arduino to show up indoors.
